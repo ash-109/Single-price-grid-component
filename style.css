@@ -110,7 +110,11 @@ box-shadow: .1rem .2rem .9rem .2rem  rgba(71, 69, 69, 0.432);
   grid-column: 2/3;
   background-color: hsl(179, 47%, 51%);
 }
-#why-us p {
+#why-us ul{
+  list-style-type: none;
+  padding: 0;
+}
+#why-us ul li {
   font-size: 0.7rem;
   color: var(--Light-gray);
   line-height: 15px;
